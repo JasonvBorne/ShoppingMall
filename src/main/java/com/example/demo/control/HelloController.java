@@ -16,6 +16,7 @@ public class HelloController {
     @RequestMapping("/")
     @ResponseBody
     public String index(){
-        return "Hello Springboot"+dataSource;
+
+        return "Hello Springboot"+dataSource.toString();
     }
 }
