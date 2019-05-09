@@ -21,6 +21,7 @@ public class JdbcConfig {
         dataSource.setDriverClassName(jdbc.getDriverClassName());
         dataSource.setUsername(jdbc.getUsername());
         dataSource.setPassword(jdbc.getPassword());
+
         return dataSource;
     }
 }
